@@ -4,9 +4,15 @@ body {
     flex-wrap: wrap;
     padding: 20px;
 }
-h3 (
-    /* margin: 50px;
-    padding: 50px; */
+h3 {
+    margin-inline-end: 500px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 50px;
 
+}
 
-)
+.name {
+    text-transform: capitalize;
+}
+/* how to make this work?text transform works on strings read as texts, so not this? Might need function in js*/
